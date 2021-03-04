@@ -1,12 +1,31 @@
-a {
-    color: black;
+ul{
     text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
 }
-a:hover {
-    text-decoration: underline;
+li a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
 }
 a.sign-in {
     color: white;
     background-color: blue;
-    background-size: 200cm 40cm;
+    border-radius: 5px;
+    
+}
+ul#horizontal-list li{
+    display: inline;
+}
+
+
+
+
+
+
+html{
+    background-color: purple;
 }
